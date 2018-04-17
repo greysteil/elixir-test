@@ -17,9 +17,7 @@ defmodule DependabotTest.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.3"},
-      {:money, "~> 1.2.1"},
-      {:stripity_stripe, github: "code-corps/stripity_stripe", ref: "v2.0.0-alpha.1"}
+      {:example_package_a, "~> 1.0.0", organization: "dependabot"}
     ]
   end
 end
