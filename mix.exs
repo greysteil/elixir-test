@@ -17,7 +17,7 @@ defmodule DependabotTest.Mixfile do
 
   defp deps do
     [
-      {:example_package_a, "~> 1.0.0", organization: "dependabot"}
+      {:example_package_a, "~> 1.1.0", organization: "dependabot"}
     ]
   end
 end
